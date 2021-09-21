@@ -3,7 +3,7 @@ entries:
   gitrepotest:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-09-21T19:12:29.88484+01:00"
+    created: "2021-09-21T19:25:40.087798+01:00"
     description: A Helm chart for Kubernetes using git repo - helm_git_repo
     digest: afb7039295263e4bd9f36f795b8fec466035e86d3641f3e0f819af71b1d15c5f
     name: gitrepotest
@@ -14,7 +14,7 @@ entries:
   gitrepotest2:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-09-21T19:12:29.885778+01:00"
+    created: "2021-09-21T19:25:40.088557+01:00"
     description: A Helm chart for Kubernetes
     digest: 4a10c79551123f265be368f0585cd0fdcc7ae5e8d46794dc77195ea59690fa0c
     name: gitrepotest2
@@ -25,7 +25,17 @@ entries:
   upgrade-rlbk-kubernetes:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-09-21T19:12:29.88784+01:00"
+    created: "2021-09-21T19:25:40.090014+01:00"
+    description: A Helm chart for Kubernetes upgrade and rollback Test
+    digest: 140a54d4404052aed89687076348db427b5d38f92642d2ea655878b29e9c9660
+    name: upgrade-rlbk-kubernetes
+    type: application
+    urls:
+    - upgrade-rlbk-kubernetes-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-09-21T19:25:40.089494+01:00"
     description: A Helm chart for Kubernetes upgrade and rollback Test
     digest: 807851aa21de0be16d9c5e3bac9d41367e3282f36a3a7d8183cc4a153a7f0443
     name: upgrade-rlbk-kubernetes
@@ -33,4 +43,4 @@ entries:
     urls:
     - upgrade-rlbk-kubernetes-0.1.0.tgz
     version: 0.1.0
-generated: "2021-09-21T19:12:29.883694+01:00"
+generated: "2021-09-21T19:25:40.086737+01:00"
